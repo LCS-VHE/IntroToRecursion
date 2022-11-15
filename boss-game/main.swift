@@ -7,16 +7,23 @@
 
 import Foundation
 
-func fib(k:Int) -> Int {
-    if k == 1 {
+func fib(k:Int) -> Int
+{
+    if k == 1
+    {
         return 1
     }
     
     return fib(k: k-1) + fib(k: k-2)
 }
 
-//func fibi(k:Int) -> Int{
-//    
+//func fibi(k:Int) -> Int
+//{
+//    var fibArray :[Int] = []
+//    for 0..<k
+//    {
+//
+//    }
 //    return 10
 //}
 
