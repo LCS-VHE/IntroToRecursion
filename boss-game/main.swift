@@ -32,8 +32,8 @@ func fibi(k:Int) -> Int
         fibArray.append(fibArray[i] + fibArray[i - 1])
         i += 1
     }
-    fibArray.append(fibArray[i] + fibArray[i - 1])
-
+//    fibArray.append(fibArray[i] + fibArray[i - 1])
+    print(fibArray)
     return fibArray[k]
 }
 
